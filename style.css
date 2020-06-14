@@ -1,0 +1,82 @@
+body {
+  margin, padding: 0;
+  background-color: #272727;
+}
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 6em;
+  color: #747474;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+h2 {
+  font-size: 4em;
+  color: #747474;
+}
+button {
+  font-size: 2.5em;
+ padding: .2rem 1rem .2rem 1rem;
+ margin: .25em;
+}
+  .genre button {
+  background-color: #ff652F;
+  color: #272727;
+  font-size: 2.5em;
+ padding: .2rem 1rem .2rem 1rem;
+ margin: .25em;
+
+  border: none;
+  border-radius: 6px;
+}
+.bar button{
+  background-color: #ffE400;
+  color: #272727;
+  border: none;
+  border-radius: 6px;
+}
+.measure button {
+  background-color: #14A76C;
+
+  border: none;
+  border-radius: 6px;
+}
+form {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#male,  #female,  #age {
+  margin-bottom: .5rem;
+}
+input {
+  width: 20px;
+  margin-top: .5rem;
+  border-radius: 4px;
+}
+#rstyle {
+  margin: 1rem;
+
+}
+.bio {
+ color: #747474;
+ font-size: 2em;
+ position: relative;
+}
+#male {
+  margin-right: 1.3rem;
+}
+ #next button{
+   font-family: 'Quicksand', sans-serif;
+   font-size: 3em;
+  padding: .5rem 2rem .5rem 2rem;
+  color: #272727;
+  background: linear-gradient(90deg, rgba(255,101,47,1) 0%, rgba(255,228,0,1) 35%, rgba(20,167,108,1) 100%);
+  border-radius: 8px;
+  border: none;
+}
+hr {
+  width: 40%;
+  margin-top: 2rem;
+}
